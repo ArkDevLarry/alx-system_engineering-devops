@@ -1,1 +1,2 @@
-A readme file that is not empty
+#!/bin/bash
+Readme that is not empty
