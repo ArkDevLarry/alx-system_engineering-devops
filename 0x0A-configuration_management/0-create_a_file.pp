@@ -1,4 +1,4 @@
-creates a file at /tmp
+# creates a file at /tmp
 file { '/tmp/school':
   ensure  => file,
   mode    => '0744',
