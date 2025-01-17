@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # Fixing issues from docker container
 # Return "Hello ALX" when querying the root
 
