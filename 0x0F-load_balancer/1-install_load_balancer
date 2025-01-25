@@ -38,8 +38,8 @@ frontend arkdevlarry-frontend
     default_backend arkdevlarry-backend
 backend arkdevlarry-backend
     balance roundrobin
-    server 151666-web-01 34.232.68.152:80 check
-    server 151666-web-02 3.83.227.80:80 check
+    server 530631-web-01 34.229.254.6:80 check
+    server 530631-web-02 18.204.20.117:80 check
 "
 
 # shellcheck disable=SC2154
