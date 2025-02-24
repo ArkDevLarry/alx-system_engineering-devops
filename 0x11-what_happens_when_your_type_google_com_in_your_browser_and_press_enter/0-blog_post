@@ -1,0 +1,94 @@
+What Happens When You Type https://www.google.com in Your Browser and Press Enter? 🤔
+
+Ever wondered what magic happens behind the scenes when you type https://www.google.com and hit Enter? Well, buckle up! 🚀 We’re about to take a wild ride through the internet’s secret highways and back alleys! 🛣️💻
+
+1. DNS Request: Resolving the Domain Name 📡
+
+First things first—your browser needs to figure out where in the world Google’s servers are. Think of it as asking for directions:
+
+The browser checks its cache for a recent DNS record. "Hey, do I already know where Google lives?" 🧠
+
+If not, it asks your operating system, which then asks a DNS server (like calling 411 back in the day 📞).
+
+Eventually, the DNS server responds with Google's IP address, like "Yup, Google lives at 142.250.190.78."
+
+2. TCP/IP: Establishing a Connection 📶
+
+Now that we know where Google lives, we need to knock on its door. This is done using the Transmission Control Protocol (TCP):
+
+Your browser initiates a three-way handshake (SYN, SYN-ACK, ACK). It's like saying, "Hey Google, you there?" and Google replying, "Yeah, I’m here! What’s up?" 🤝
+
+3. Firewall: Security Screening 🔥
+
+Before anything else, your request passes through firewalls—kind of like bouncers at a club. 🎶🚪
+
+If you're a good guest, you get in.
+
+If you're suspicious, 🚫 blocked!
+
+4. HTTPS/SSL: Secure Communication 🔐
+
+Since the URL starts with https://, security is a big deal! Your browser and Google’s servers perform a secret handshake using SSL/TLS:
+
+They exchange SSL certificates to verify authenticity. 🕵️‍♂️
+
+A secure encryption key is generated, preventing sneaky hackers from eavesdropping. "Nothing to see here, move along!" 😎
+
+5. Load Balancer: Distributing Traffic ⚖️
+
+Google has billions of users, so one server can't handle everything. A load balancer makes sure no single server has a meltdown. 🔥
+
+It routes your request to the best-performing server. "You go here! You go there! Keep moving!" 🏃‍♂️
+
+6. Web Server: Handling the Request 🌐
+
+The selected web server (e.g., Nginx, Apache, or Google’s supercharged custom setup) takes your request and:
+
+Checks if it has a cached version of the page.
+
+If not, forwards the request to an application server. "Hey, boss, we got another one!" 📩
+
+7. Application Server: Running the Logic 🧠
+
+This is where the magic happens. The application server does the heavy lifting:
+
+It checks if you're logged in. ("Recognize this person? Oh yeah, it's you!" 👀)
+
+It runs search algorithms to fetch the most relevant results.
+
+It communicates with databases to get fresh data. "Database, give me some search results, stat!" 📊
+
+8. Database: Storing and Retrieving Data 💾
+
+The application server fetches data from Google's vast databases, which store:
+
+Indexed web pages 📚
+
+User preferences 🎯
+
+Historical search data 📜
+
+Once the results are ready, they’re sent back to the application server, which prepares them for display.
+
+9. Web Crawling: Keeping Google Updated 🕷️
+
+Before you even make a request, Google’s web crawlers (a.k.a. little internet spiders 🕸️) are already working:
+
+Crawling millions of websites every day. "Ooh, a new page! Let’s index this one!" 🧐
+
+Updating search results so you get fresh, relevant content. 🏆
+
+10. Response Sent Back to Browser 🚀
+
+Finally, the search results make their way back:
+
+The response is transmitted securely over HTTPS.
+
+The browser receives HTML, CSS, and JavaScript.
+
+The page is rendered, and boom! Google’s homepage or search results appear before your eyes. ✨
+
+
+All of this happens in milliseconds! So next time you casually Google something, remember—you just triggered a global dance of servers, security checks, and databases working together at lightning speed. 🌎⚡
+
+Now, go ahead and Google something random just to appreciate the magic behind the scenes! 😆
