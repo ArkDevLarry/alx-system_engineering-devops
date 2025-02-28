@@ -1,7 +1,7 @@
 ## **# Postmortem: Database Connection Failure Impacting User Authentication**
 
 ## **Issue Summary**
-**Duration:** March 10, 2025, 14:30 - 15:15 UTC (45 minutes)  
+**Duration:** March 10, 2025, 14:30 - 15:15 UTC (45 minutes).  
 **Impact:** User authentication service was down, preventing 80% of users from logging in. Some users with active sessions could still browse but could not make new requests requiring authentication.
 **Root Cause:** A misconfigured database connection pool limit caused the application servers to exhaust available connections, leading to authentication failures.
 
