@@ -7,7 +7,7 @@ _(Because every disaster needs a dramatic name)_
 🔥 **Impact:** 80% of users were locked out of their accounts, resulting in mass panic, angry tweets, and existential crises. Users with active sessions could still browse but couldn’t log in to make new requests. 
 💥 **Root Cause:** A sneaky database configuration update accidentally reduced the connection pool limit, causing the authentication service to collapse like a house of cards. 
 
-![Database Meltdown](https://example.com/funny-db-error-meme.jpg)  
+![Database Meltdown - Einstein😂](https://media.makeameme.org/created/database-connector-error.jpg)  
 
 ## **Timeline**
 - **14:30 UTC** - Monitoring alert detected an increase in login failures. Cue dramatic music. 🎶
